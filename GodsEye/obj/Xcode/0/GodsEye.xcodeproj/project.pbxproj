@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FA421570000000000000000 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C63A930000000000000000 /* Cocoa.framework */; };
+		F835B3710000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F57CCAD0000000000000000 /* Foundation.framework */; };
+		5AD180170000000000000000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1F399530000000000000000 /* Assets.xcassets */; };
+		1883EB4E0000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9FA6048A0000000000000000 /* Info.plist */; };
+		F68881E30000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 413BA7BD0000000000000000 /* Entitlements.plist */; };
+		981E25160000000000000000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F403E520000000000000000 /* Main.storyboard */; };
+		6D518DAE0000000000000000 /* AddDomainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F473A6EA0000000000000000 /* AddDomainView.xib */; };
+		DB496B7C0000000000000000 /* .DS_Store in Resources */ = {isa = PBXBuildFile; fileRef = 626B84B80000000000000000 /* .DS_Store */; };
+		57857BC20000000000000000 /* Domains.txt in Resources */ = {isa = PBXBuildFile; fileRef = DEA794FE0000000000000000 /* Domains.txt */; };
+		4C9F72CC0000000000000000 /* NewsData in Resources */ = {isa = PBXBuildFile; fileRef = D3C18C080000000000000000 /* NewsData */; };
+		7C13823F0000000000000000 /* AddDomainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3359B7B00000000000000000 /* AddDomainViewController.m */; };
+		381CAF690000000000000000 /* AddDomainView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3EC8A50000000000000000 /* AddDomainView.m */; };
+		F425DC930000000000000000 /* NewsSourcesManagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B47F5CF0000000000000000 /* NewsSourcesManagerController.m */; };
+		771E3FDD0000000000000000 /* NewsSourcesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4059190000000000000000 /* NewsSourcesManager.m */; };
+		44C9C9010000000000000000 /* MenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEBE23D0000000000000000 /* MenuButton.m */; };
+		79B0DCEF0000000000000000 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F62B000000000000000000 /* ViewController.m */; };
+		78F492F00000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB1626B0000000000000000 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FC512D10000000000000000 /* GodsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "GodsEye.app"; path = "GodsEye.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C63A930000000000000000 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cocoa.framework"; path = "System/Library/Frameworks/Cocoa.framework"; sourceTree = SDKROOT; };
+		7F57CCAD0000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		E1F399530000000000000000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Assets.xcassets"; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		9FA6048A0000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		413BA7BD0000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		1F403E520000000000000000 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Main.storyboard"; path = "Main.storyboard"; sourceTree = "<group>"; };
+		F473A6EA0000000000000000 /* AddDomainView.xib */ = {isa = PBXFileReference; name = "AddDomainView.xib"; path = "AddDomainView.xib"; sourceTree = "<group>"; };
+		626B84B80000000000000000 /* .DS_Store */ = {isa = PBXFileReference; name = ".DS_Store"; path = ".DS_Store"; sourceTree = "<group>"; };
+		DEA794FE0000000000000000 /* Domains.txt */ = {isa = PBXFileReference; name = "Domains.txt"; path = "Domains.txt"; sourceTree = "<group>"; };
+		D3C18C080000000000000000 /* NewsData */ = {isa = PBXFileReference; name = "NewsData"; path = "NewsData"; sourceTree = "<group>"; };
+		54A767400000000000000000 /* AddDomainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AddDomainViewController.h"; path = "AddDomainViewController.h"; sourceTree = "<group>"; };
+		3359B7B00000000000000000 /* AddDomainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AddDomainViewController.m"; path = "AddDomainViewController.m"; sourceTree = "<group>"; };
+		5A1818D40000000000000000 /* AddDomainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AddDomainView.h"; path = "AddDomainView.h"; sourceTree = "<group>"; };
+		BF3EC8A50000000000000000 /* AddDomainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AddDomainView.m"; path = "AddDomainView.m"; sourceTree = "<group>"; };
+		9D435F3A0000000000000000 /* NewsSourcesManagerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NewsSourcesManagerController.h"; path = "NewsSourcesManagerController.h"; sourceTree = "<group>"; };
+		7B47F5CF0000000000000000 /* NewsSourcesManagerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NewsSourcesManagerController.m"; path = "NewsSourcesManagerController.m"; sourceTree = "<group>"; };
+		BE733C350000000000000000 /* NewsSourcesManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NewsSourcesManager.h"; path = "NewsSourcesManager.h"; sourceTree = "<group>"; };
+		FE4059190000000000000000 /* NewsSourcesManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NewsSourcesManager.m"; path = "NewsSourcesManager.m"; sourceTree = "<group>"; };
+		C52F8F390000000000000000 /* MenuButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MenuButton.h"; path = "MenuButton.h"; sourceTree = "<group>"; };
+		CBEBE23D0000000000000000 /* MenuButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MenuButton.m"; path = "MenuButton.m"; sourceTree = "<group>"; };
+		9BAC465A0000000000000000 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ViewController.h"; path = "ViewController.h"; sourceTree = "<group>"; };
+		D2F62B000000000000000000 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ViewController.m"; path = "ViewController.m"; sourceTree = "<group>"; };
+		C7C22C4B0000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		8EB1626B0000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13AF2CE00000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA421570000000000000000 /* Cocoa.framework in Frameworks */,
+				F835B3710000000000000000 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		892EEA220000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				E5846BF60000000000000000 /* GodsEye */,
+				5B0429380000000000000000 /* Frameworks */,
+				B759AB0C0000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B759AB0C0000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FC512D10000000000000000 /* GodsEye.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		5B0429380000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F57CCAD0000000000000000 /* Foundation.framework */,
+				A6C63A930000000000000000 /* Cocoa.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		E5846BF60000000000000000 /* GodsEye */ = {
+			isa = PBXGroup;
+			children = (
+				626B84B80000000000000000 /* .DS_Store */,
+				5A1818D40000000000000000 /* AddDomainView.h */,
+				BF3EC8A50000000000000000 /* AddDomainView.m */,
+				F473A6EA0000000000000000 /* AddDomainView.xib */,
+				54A767400000000000000000 /* AddDomainViewController.h */,
+				3359B7B00000000000000000 /* AddDomainViewController.m */,
+				C7C22C4B0000000000000000 /* AppDelegate.h */,
+				8EB1626B0000000000000000 /* AppDelegate.m */,
+				E1F399530000000000000000 /* Assets.xcassets */,
+				DEA794FE0000000000000000 /* Domains.txt */,
+				413BA7BD0000000000000000 /* Entitlements.plist */,
+				9FA6048A0000000000000000 /* Info.plist */,
+				1F403E520000000000000000 /* Main.storyboard */,
+				C52F8F390000000000000000 /* MenuButton.h */,
+				CBEBE23D0000000000000000 /* MenuButton.m */,
+				D3C18C080000000000000000 /* NewsData */,
+				BE733C350000000000000000 /* NewsSourcesManager.h */,
+				FE4059190000000000000000 /* NewsSourcesManager.m */,
+				9D435F3A0000000000000000 /* NewsSourcesManagerController.h */,
+				7B47F5CF0000000000000000 /* NewsSourcesManagerController.m */,
+				9BAC465A0000000000000000 /* ViewController.h */,
+				D2F62B000000000000000000 /* ViewController.m */,
+			);
+			name = "GodsEye";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F922FB50000000000000000 /* GodsEye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5EC71D0000000000000000 /* Build configuration list for PBXNativeTarget "GodsEye" */;
+			buildPhases = (
+				7004AEB40000000000000000 /* Sources */,
+				13AF2CE00000000000000000 /* Frameworks */,
+				7E48E12C0000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GodsEye";
+			productName = "GodsEye";
+			productReference = 3FC512D10000000000000000 /* GodsEye.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BF46A500000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+			};
+			buildConfigurationList = 51676ECB0000000000000000 /* Build configuration list for PBXProject "GodsEye" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 892EEA220000000000000000;
+			productRefGroup = B759AB0C0000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F922FB50000000000000000 /* GodsEye */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E48E12C0000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD180170000000000000000 /* Assets.xcassets in Resources */,
+				1883EB4E0000000000000000 /* Info.plist in Resources */,
+				F68881E30000000000000000 /* Entitlements.plist in Resources */,
+				981E25160000000000000000 /* Main.storyboard in Resources */,
+				6D518DAE0000000000000000 /* AddDomainView.xib in Resources */,
+				DB496B7C0000000000000000 /* .DS_Store in Resources */,
+				57857BC20000000000000000 /* Domains.txt in Resources */,
+				4C9F72CC0000000000000000 /* NewsData in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7004AEB40000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C13823F0000000000000000 /* AddDomainViewController.m in Sources */,
+				381CAF690000000000000000 /* AddDomainView.m in Sources */,
+				F425DC930000000000000000 /* NewsSourcesManagerController.m in Sources */,
+				771E3FDD0000000000000000 /* NewsSourcesManager.m in Sources */,
+				44C9C9010000000000000000 /* MenuButton.m in Sources */,
+				79B0DCEF0000000000000000 /* ViewController.m in Sources */,
+				78F492F00000000000000000 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8572133E0000000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C33C7A560000000000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CBEFD5BE0000000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.burcumirza.God-s-Eye";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BAEC42E0000000000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.burcumirza.God-s-Eye";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51676ECB0000000000000000 /* Build configuration list for PBXProject "GodsEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8572133E0000000000000000 /* Debug */,
+				C33C7A560000000000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AA5EC71D0000000000000000 /* Build configuration list for PBXNativeTarget "GodsEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBEFD5BE0000000000000000 /* Debug */,
+				3BAEC42E0000000000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BF46A500000000000000000 /* Project object */;
+}

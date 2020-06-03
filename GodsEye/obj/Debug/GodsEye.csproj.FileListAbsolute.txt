@@ -1,0 +1,19 @@
+/Users/ozanmirza/Desktop/GodsEye/GodsEye/obj/Debug/actool/_PartialAppManifest.items
+/Users/ozanmirza/Desktop/GodsEye/GodsEye/obj/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/ozanmirza/Desktop/GodsEye/GodsEye/obj/Debug/ibtool-manifests/Main.storyboardc
+/Users/ozanmirza/Desktop/GodsEye/GodsEye/obj/Debug/ibtool/Main.storyboardc/MainMenu.nib
+/Users/ozanmirza/Desktop/GodsEye/GodsEye/obj/Debug/ibtool/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib
+/Users/ozanmirza/Desktop/GodsEye/GodsEye/obj/Debug/ibtool/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib
+/Users/ozanmirza/Desktop/GodsEye/GodsEye/obj/Debug/ibtool/Main.storyboardc/Info.plist
+/Users/ozanmirza/Desktop/GodsEye/GodsEye/obj/Debug/GodsEye.csprojAssemblyReference.cache
+/Users/ozanmirza/Desktop/GodsEye/GodsEye/obj/Debug/GodsEye.csproj.CoreCompileInputs.cache
+/Users/ozanmirza/Desktop/GodsEye/GodsEye/bin/Debug/Gods Eye.exe
+/Users/ozanmirza/Desktop/GodsEye/GodsEye/bin/Debug/Gods Eye.pdb
+/Users/ozanmirza/Desktop/GodsEye/GodsEye/obj/Debug/Gods Eye.exe
+/Users/ozanmirza/Desktop/GodsEye/GodsEye/obj/Debug/Gods Eye.pdb
+/Users/ozanmirza/Desktop/GodsEye/GodsEye/obj/Debug/ibtool/Main.storyboardc/4se-pd-kyD-view-9Es-Wj-rm6.nib
+/Users/ozanmirza/Desktop/GodsEye/GodsEye/obj/Debug/ibtool/Main.storyboardc/NewsManagerPanel.nib
+/Users/ozanmirza/Desktop/GodsEye/GodsEye/obj/Debug/ibtool-manifests/AddDomainView.nib
+/Users/ozanmirza/Desktop/GodsEye/GodsEye/obj/Debug/ibtool/AddDomainView.nib
+/Users/ozanmirza/Desktop/GodsEye/GodsEye/obj/Debug/ibtool/Main.storyboardc/AddDomainViewController.nib
+/Users/ozanmirza/Desktop/GodsEye/GodsEye/obj/Debug/ibtool/Main.storyboardc/dzw-u4-drj-view-akH-mL-ZDQ.nib

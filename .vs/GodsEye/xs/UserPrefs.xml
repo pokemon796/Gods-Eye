@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{08F9BF04-BE23-4262-9AF8-C197F940E676}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GodsEye/ViewController.cs">
+    <Files>
+      <File FileName="GodsEye/AppDelegate.cs" Line="35" Column="90" />
+      <File FileName="GodsEye/ViewController.cs" Line="110" Column="92" />
+      <File FileName="GodsEye/NewsAPI.cs" />
+      <File FileName="GodsEye/AddDomainViewController.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GodsEye" expanded="True">
+            <Node name="GodsEye" expanded="True">
+              <Node name="Resources" expanded="True" />
+              <Node name="Main.storyboard" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.GodsEye PreferredExecutionTarget="Test1" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

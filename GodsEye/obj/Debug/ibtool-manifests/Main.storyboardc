@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.ibtool.document.errors</key>
+	<dict/>
+	<key>com.apple.ibtool.document.notices</key>
+	<dict>
+		<key>3aE-eP-Ej1</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>3aE-eP-Ej1</string>
+				</array>
+				<key>message</key>
+				<string>View is clipping its content</string>
+				<key>type</key>
+				<string>IBIssueTypeClippedContent</string>
+				<key>type-value</key>
+				<integer>13</integer>
+			</dict>
+		</array>
+		<key>9Ei-ZB-l0q</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>9Ei-ZB-l0q</string>
+				</array>
+				<key>message</key>
+				<string>View is clipping its content</string>
+				<key>type</key>
+				<string>IBIssueTypeClippedContent</string>
+				<key>type-value</key>
+				<integer>13</integer>
+			</dict>
+		</array>
+		<key>XNU-sY-B7S</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>XNU-sY-B7S</string>
+				</array>
+				<key>message</key>
+				<string>View is clipping its content</string>
+				<key>type</key>
+				<string>IBIssueTypeClippedContent</string>
+				<key>type-value</key>
+				<integer>13</integer>
+			</dict>
+		</array>
+		<key>n3g-XQ-8V9</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>n3g-XQ-8V9</string>
+				</array>
+				<key>message</key>
+				<string>View is clipping its content</string>
+				<key>type</key>
+				<string>IBIssueTypeClippedContent</string>
+				<key>type-value</key>
+				<integer>13</integer>
+			</dict>
+		</array>
+		<key>zly-mO-wit</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>zly-mO-wit</string>
+				</array>
+				<key>message</key>
+				<string>View is clipping its content</string>
+				<key>type</key>
+				<string>IBIssueTypeClippedContent</string>
+				<key>type-value</key>
+				<integer>13</integer>
+			</dict>
+		</array>
+	</dict>
+	<key>com.apple.ibtool.document.warnings</key>
+	<dict>
+		<key>nHl-Lp-ukS</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>nHl-Lp-ukS</string>
+					<string>u3M-ig-S80</string>
+				</array>
+				<key>message</key>
+				<string>Multiple objects using identifier "WebsiteFavIcon" (Identifiers must be unique)</string>
+				<key>type</key>
+				<string>IBIssueTypeUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+		<key>u3M-ig-S80</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>nHl-Lp-ukS</string>
+					<string>u3M-ig-S80</string>
+				</array>
+				<key>message</key>
+				<string>Multiple objects using identifier "WebsiteFavIcon" (Identifiers must be unique)</string>
+				<key>type</key>
+				<string>IBIssueTypeUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>
